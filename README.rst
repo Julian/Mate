@@ -5,6 +5,18 @@ Sweet
 Sweet is an implementation of matchers for Python's ``unittest`` module, which
 it largely tears out from `testtools <https://testtools.readthedocs.org/>`_\ .
 
+There are two purposes in doing so:
+
+    * Extract portions suitable for submission upstream for inclusion in the
+      unittest module and modify them so that they're able to be integrated
+    * Separate out details, matchers, and delayed assertions from
+      ``testtools.TestCase`` so that they can be used with other ``TestCase``
+      subclasses
+
+the second of which supports the first, and an ultimate goal is to contribute a
+shared implementation that can be used by both the standard library, testtools,
+and any other consumers.
+
 
 Licensing
 ---------
