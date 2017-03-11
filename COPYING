@@ -1,4 +1,4 @@
-Copyright (c) 2014 Julian Berman
+Copyright (c) 2014- Julian Berman
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,7 +19,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-Sweet is largely derived and extracted from testtools, whose license is
+Mate is largely derived and extracted from testtools, whose license is
 reproduced below:
 
 Copyright (c) 2008-2011 Jonathan M. Lange <jml@mumak.net>

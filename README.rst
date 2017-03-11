@@ -1,9 +1,10 @@
-=====
-Sweet
-=====
+====
+Mate
+====
 
-Sweet is an implementation of matchers for Python's ``unittest`` module, which
-it largely tears out from `testtools <https://testtools.readthedocs.org/>`_\ .
+Mate is an implementation of matchers for Python's ``unittest``
+module, which it largely tears out from `testtools
+<https://testtools.readthedocs.org/>`_\ .
 
 There are two purposes in doing so:
 

@@ -1,5 +1,5 @@
-from sweet import TestCase
-from sweet.matchers import Mismatch
+from mate import TestCase
+from mate.matchers import Mismatch
 
 
 class AlwaysMatcher(object):

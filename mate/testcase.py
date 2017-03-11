@@ -6,8 +6,15 @@ class MatcherSupportMixin(object):
         """
         Assert that the result matches via the given matcher.
 
-        :argument result: the result to try and match
-        :argument matcher: the Matcher to use
+        Arguments:
+
+            result (object):
+
+                the result to try and match
+
+            matcher (Matcher):
+
+                the Matcher to use
 
         """
 
