@@ -1,10 +1,10 @@
 language: python
 python:
-  - "pypy"
-  - "2.7"
-  - "3.3"
+ - "2.7"
+ - "3.6"
+ - "pypy"
 install:
-    - python setup.py -q install
+  - pip install tox-travis
 script:
-    - py.test --tb=native sweet
-    - python -m doctest README.rst
+  - tox
+sudo: false
